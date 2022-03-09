@@ -1,4 +1,4 @@
-module github.com/nglogic/errors
+module github.com/m-zajac/errors
 
 go 1.16
 
