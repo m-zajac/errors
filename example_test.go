@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/nglogic/errors"
+	"github.com/m-zajac/errors"
 )
 
 // This example demonstrates the usage of From function.

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nglogic/errors"
+	"github.com/m-zajac/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
