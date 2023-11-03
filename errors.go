@@ -66,6 +66,11 @@ func Unwrap(err error) error {
 	return errors.Unwrap(err)
 }
 
+// Join is a convenient alias for standard errors package function, that helps to avoid extra imports.
+func Join(errs ...error) error {
+	return errors.Join(errs...)
+}
+
 // internalError represents error with some additional context data.
 type internalError struct {
 	e      error
