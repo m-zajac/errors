@@ -20,6 +20,7 @@ const (
 	TypeFailedPrecondition Type = "FailedPrecondition"
 	TypeNotImplemented     Type = "NotImplemented"
 	TypeResourceExhausted  Type = "ResourceExhausted"
+	TypeUnavailable        Type = "Unavailable"
 )
 
 // Type represents general error type.
