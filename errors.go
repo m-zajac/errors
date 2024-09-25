@@ -71,6 +71,8 @@ func Join(errs ...error) error {
 	return errors.Join(errs...)
 }
 
+var ErrUnsupported = errors.ErrUnsupported
+
 // internalError represents error with some additional context data.
 type internalError struct {
 	e      error

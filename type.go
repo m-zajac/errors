@@ -8,8 +8,7 @@ import (
 //
 // If you need to use a custom type you can define it yourself.
 //
-//   const MyTypeResourceExhausted errors.Type = "ResourceExhausted"
-//
+//	const MyTypeResourceExhausted errors.Type = "ResourceExhausted"
 const (
 	TypeUnknown            Type = ""
 	TypeDeadlineExceeded   Type = "DeadlineExceeded"
@@ -19,6 +18,7 @@ const (
 	TypeUnauthenticated    Type = "Unauthenticated"
 	TypePermissionDenied   Type = "PermissionDenied"
 	TypeFailedPrecondition Type = "FailedPrecondition"
+	TypeNotImplemented     Type = "NotImplemented"
 )
 
 // Type represents general error type.
