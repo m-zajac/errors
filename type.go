@@ -19,6 +19,7 @@ const (
 	TypePermissionDenied   Type = "PermissionDenied"
 	TypeFailedPrecondition Type = "FailedPrecondition"
 	TypeNotImplemented     Type = "NotImplemented"
+	TypeResourceExhausted  Type = "ResourceExhausted"
 )
 
 // Type represents general error type.
